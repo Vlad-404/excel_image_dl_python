@@ -6,3 +6,4 @@ Features that need to be added:
 - (?)drag and drop - mostly for Mac OS
 - search through the sheet for all image links to download
 - add multiple sheets
+- add UI

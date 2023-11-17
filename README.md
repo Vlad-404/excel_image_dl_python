@@ -38,4 +38,4 @@ If you install any additional packages, don't forget to `pip freeze > requiremen
 
 At the moment, scripts only works with a sheet that is in the root folder of this app. Other paths can be used, but then the paths in `get_urls.py` also need to be changed.
 
-The app will get upgraded and the goal is to make it have it's own UI. Initialization through UI and to make it as simple as open and use is the main goal.
+The app will get upgraded and the goal is to make it have it's own UI. The main goal is for any user without any coding knowledge to be able to use it through said UI.
