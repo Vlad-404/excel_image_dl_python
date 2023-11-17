@@ -1,0 +1,8 @@
+Features that need to be added:
+- excel file variable for dynamic insertion
+- add any path for the excel file variable
+- add image download folder
+- add support for .ods files
+- (?)drag and drop - mostly for Mac OS
+- search through the sheet for all image links to download
+- add multiple sheets
