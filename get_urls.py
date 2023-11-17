@@ -12,7 +12,13 @@ ws = wb[sheets[0]]
 
 def dl_images(img_urls):
     for link in img_urls:
-        urllib.request.urlretrieve(link, "highway.jpg")
+        # Split the list by a hyphen "-"
+        name_arr = link.split('-')
+        last = len(name_arr) - 1
+        # Names the file by the id and extension
+        file_name = name_arr[last]
+        # Fetches the images
+        urllib.request.urlretrieve(link, file_name)
         print('Link from dl_images: ', link)
 
 # Iterate through rows
