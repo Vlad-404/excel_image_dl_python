@@ -7,30 +7,36 @@ Presumptions (until app is upgraded):
 - all of your images are in one and the same column (see column variable in `get_urls.py`)
 - only the first sheet is used
 
-As the app is reading hyperlink values, they need to be stored as url links not as plain text.
+As the app is reading hyperlink values, they need to be **stored as url links** not as plain text or images themselves.
 
 Pre-requisites:
 - Python 3.10 or newer installed ([Install Python](https://www.python.org/downloads/))
 - Pip - for installing packages
-- Code editor (Like [VSCode](https://code.visualstudio.com/download) to edit the code)
+- Code editor (Like [VSCode](https://code.visualstudio.com/download) or any other to edit the code)
 
 Using the app:
 1. First clone this repo or make a fork.
 2. Create venv (optional):
 
-    ```python3 -m venv excel_venv```
+    `python3 -m venv excel_venv`
 
-      (you can replace excel_venv with your own name, but don't forget to change the name in .gitignore file!)
+      You can replace excel_venv with your own name, but don't forget to change the name in .gitignore file! Replace `python3` with `python` depending on your OS:
+
+    `python -m venv excel_venv`
 
    2a. Activate venv:
 
     `source excel_venv/bin/activate`
 
+    Depending on your OS, if venv isn't activated, look for `activate` file and use that path. On Windows it's usually in `/scripts/activate`
+
 3. Run:
 
-    ```pip install requirements.txt```
+    `pip install requirements.txt`
 
-    (this will install all of the required packages)
+    This will install all of the required packages. Depending on your OS, you might want to add `-r` handle:
+
+    `pip install -r requirements.txt`
 
 4. Run any of the `.py` scripts.
 
